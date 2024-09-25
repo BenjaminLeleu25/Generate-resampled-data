@@ -1,0 +1,12 @@
+#### SPI parameters ####
+# For more information about the other parameters, check:
+#   https://xclim.readthedocs.io/en/stable/indices.html#xclim.indices.standardized_precipitation_index
+
+units: {units: 'mm/d'}
+start_periode: 1991
+end_periode: 2020
+spi_duration: [1,3,6,9,12]
+function: gamma
+freq: 'MS'
+method: 'ML'
+floc_param: 0
